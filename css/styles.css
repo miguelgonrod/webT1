@@ -18,3 +18,13 @@
     width: 350px;
     height: 250px;
 }
+/*clase para poner la imagen flotante con el texto.*/
+.img-float{
+    float: left;
+    margin-right: 20px;
+}
+/*clase para el subrayado de los títulos.*/
+.font-color{
+    text-decoration: underline rgb(0, 200, 255);
+}
+
