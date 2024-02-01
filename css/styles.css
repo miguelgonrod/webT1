@@ -6,10 +6,6 @@
     float: left;
     width: 50%;
 }
-.contenedor-img{
-    display: flex;
-    justify-content: center;
-}
 .img-1{
     width: 350px;
     height: 250px;
