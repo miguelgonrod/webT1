@@ -1,10 +1,25 @@
+body {
+    background-color: #4C5E58;
+    color: white;
+}
+
+.index-title {
+    padding-top: 50px;
+}
+
 /*estilo que se utiliza para que las secciones queden horizontales y no verticales.*/
 .section{
     border: 2px solid black;
     box-sizing: border-box;
-
+    background: linear-gradient(#04AA6D, #45DEA6);
     float: left;
     width: 50%;
+}
+ol.section li::marker{
+    color: #896158;
+}
+ul.section li::marker{
+    color: #896158;
 }
 .img-1{
     width: 350px;
@@ -32,6 +47,7 @@ body {
 }
 
 ul.nav_bar{
+    position: fixed; /* Set the navbar to fixed position */
     list-style-type: none;
     margin: 0;
     padding: 0;
