@@ -74,3 +74,16 @@ ul.nav_bar li a:hover{
 .active {
     background-color: #04AA6D;
 }
+
+.hover-section:hover {
+    background-color: #e0e0e0; 
+    cursor: pointer;
+}
+
+/*#myID{
+    background-color: red;
+}*/
+
+.first {
+    background: #E73C49;
+}
