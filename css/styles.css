@@ -7,6 +7,10 @@ body {
     padding-top: 50px;
 }
 
+h1 {
+    font-family: "Protest Riot", serif;
+}
+
 /*estilo que se utiliza para que las secciones queden horizontales y no verticales.*/
 .section{
     border: 2px solid black;

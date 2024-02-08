@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bienvenido</title>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.svg">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/chat.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Protest+Riot">
+        <script src="js/indice.js"></script>
+    </head>
+    <body>
+        <div class="nav_bar">
+            <ul class="nav_bar">
+                <li><a href="http://127.0.0.1:5500">Bienvenida</a></li>
+                <li><a href="biografia.html">Biografía</a></li>
+                <li><a href="curriculum.html">Hoja de vida</a></li>
+                <li><a href="interes.html">Elementos de interés</a></li>
+                <li class="active"><a href="chat.html">Chat</a></li>
+            </ul>
+        </div>
+        
+        <section class="index-title">
+            <h1 class="font-color">Chat</h1>
+            <div id="wrapper">
+                <div id="chatbox"></div>
+                <form name="message" id="messageForm" action="">
+                    <section>
+                        <a>Nombre: <input name="nombre" type="text" id="nombre" size="70" /></a> 
+                        <span id="usernameError" class="error-message"></span>
+                    </section>
+                    <section>
+                        <a>Mensaje (300 caracteres): <input name="mensaje" type="text" id="mensaje" size="70" /></a> 
+                        <span id="messageError" class="error-message"></span>
+                    </section>
+                    <input class="button_slide slide_left" name="submitmsg" type="submit"  id="submitmsg" value="Enviar" />
+                </form>
+            </div>
+            </section>
+            </section>
+        </section>
+        <script src="js/chat.js"></script>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+User-agent: *
+
+Allow: /biografia.html
+Allow: /curriculum.html
+Allow: /index.html
+Allow: /interes.html
