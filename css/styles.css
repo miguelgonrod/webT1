@@ -13,10 +13,17 @@ h1 {
 
 /*estilo que se utiliza para que las secciones queden horizontales y no verticales.*/
 
-.section{
+section.section{
     border: 2px solid black;
-    box-sizing: border-box;
     background: linear-gradient(#04AA6D, #45DEA6);
+}
+
+div.curriculum {
+    width: 100%;
+}
+
+.section{
+    box-sizing: border-box;
     float: left;
     width: 50%;
 }

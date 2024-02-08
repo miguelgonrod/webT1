@@ -1,12 +1,12 @@
-function selectArea(){
-    var id = document.getElementById('section1');
-    console.log("este id: ", id)
-    document.getElementById('section1').style.backgroundColor = 'blue'
+function selectArea(oObject){
+    var id = oObject.id; // Get the id.
+    console.log("este id: ", id);
+    document.getElementById(id).style.background = "rgb(66 107 122 ";
 }
 
 
-function leaveArea(){
-    var id = document.getElementById('section1');
-    console.log("este id: ", id)
-    document.getElementById('section1').style.backgroundColor = 'red'
+function leaveArea(oObject){
+    var id = oObject.id; // Get the id.
+    console.log("este id: ", id);
+    document.getElementById(id).style.backgroundColor = '#04AA6D';
 }
