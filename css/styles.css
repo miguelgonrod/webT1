@@ -12,6 +12,7 @@ h1 {
 }
 
 /*estilo que se utiliza para que las secciones queden horizontales y no verticales.*/
+
 .section{
     border: 2px solid black;
     box-sizing: border-box;
@@ -82,12 +83,4 @@ ul.nav_bar li a:hover{
 .hover-section:hover {
     background-color: #e0e0e0; 
     cursor: pointer;
-}
-
-/*#myID{
-    background-color: red;
-}*/
-
-.first {
-    background: #E73C49;
 }
